@@ -8,6 +8,7 @@ function App() {
   const incrementCount = () => setCount(count + 1);
   return (
     <div className="App">
+      <h1>The GitHub Cards</h1>
       <Button onClickFunction={incrementCount} />
       <Display message={count} />
     </div>
