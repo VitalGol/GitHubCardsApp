@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 
-export default function Button() {
-  const [count, setCount] = useState(0);
-  return <button onClick={() => setCount(count + 1)}>{count}</button>;
+export default function Button(props) {
+  return <button onClick={props.onClickFunction}>+1</button>;
 }
